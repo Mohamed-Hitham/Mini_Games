@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: sfont;
+    src: url(a-assuannr.woff2);
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -16,18 +23,29 @@ h1{
 
 body{
     background-color: rgb(180, 255, 230);
+    font-family: sfont, sans-serif ;
 }
 
 .name{
     font-size: 25px;
     text-align: center;
+    transition: 0.7s;
+}
+
+.name:hover{
+    transform: scale(1.5);
 }
 
 .game{
     width: 25vw;
     height: 25vw;
-    border: 2px solid rgb(48, 127, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.game img{
+    width: 25vw;
+    
+
 }
