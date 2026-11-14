@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.userobject{
+    position: absolute;
+    bottom: 15px;
+    width: 15vw;
+    transition: 0.5s;
+}
+
+.compobject{
+    position: absolute;
+    top: 15px;
+    width: 15vw;
+    transition: 0.5s;
+}
+
+#Paperuser, #comprock{
+    left: 10vw;
+
+}
+
+#Scisuser, #compScis{
+    left: 42.5vw;
+}
+
+#Rockuser, #comppaper{
+    right: 10vw;
+}
+
+.clickpaper{
+   transform: translate(32vw, -30vh); 
+}
+
+.clickscis{
+    transform: translate(0, -30vh);
+}
+
+.clickrock{
+    transform: translate(-32vw, -30vh);
+}
+
+.compscis{
+    transform: translate(0, 30vh);
+}
+
+.comprock{
+    transform: translate(32vw, 30vh);
+}
+
+.comppaper{
+    transform: translate(-32vw, 30vh);
+}
+
+.result{
+    position: relative;
+    width: 100vw;
+    text-align: center;
+    height: 100vh;
+    align-content: center;
+    font-size: 4vw;
+    opacity: 0;
+    z-index: -5;
+}
+
+.buttonbox{
+    position: absolute;
+    top: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.RESTART{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    font-size: 2vw;
+    opacity: 0;
+    z-index: 1;
+    padding: 10px;
+}
+
+
+
+.showresult{
+    z-index: 1;
+}
+
+#home{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}

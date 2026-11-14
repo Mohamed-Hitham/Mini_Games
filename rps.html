@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="rps.css">
+    <script src="rps.js" defer></script>
+</head>
+<body>
+    <img id="home" onclick="window.location.href = 'index.html'" src="imgs/L.png" alt="">
+    <img id="comprock" src="imgs/Rock.png" alt="" class="compobject">
+    <img id="compScis" src="imgs/Scis.png" alt="" class="compobject">
+    <img id="comppaper" src="imgs/Paper.png" alt="" class="compobject">
+
+    <img id="Paperuser" src="imgs/Paper.png" alt="" onclick="clickpaper()" class="userobject">
+    <img id="Scisuser" src="imgs/Scis.png" alt="" onclick="clickscis()" class="userobject">
+    <img id="Rockuser" src="imgs/Rock.png" alt="" onclick="clickrock()" class="userobject">
+
+    <div class="result">You Won
+
+
+    </div>
+    <div class="buttonbox">
+    <button onclick="restart()" class="RESTART" >RESTART</button>
+</div>
+</body>
+</html>
